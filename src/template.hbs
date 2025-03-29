@@ -1,0 +1,10 @@
+<ul>
+  {{#each products}}
+    <li data-id="{{id}}">
+      <h2>{{name}}</h2>
+      <p>{{description}}</p>
+      <strong>Price: ${{price}}</strong>
+      <button class="delete-btn">Delete</button>
+    </li>
+  {{/each}}
+</ul>
